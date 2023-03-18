@@ -7,8 +7,6 @@ body{
     .link{
     text-decoration: none;
     }
-    .header{
-    }
     span {
     font-family: 'Raleway';
     font-style: normal;
@@ -19,8 +17,6 @@ body{
     text-transform: uppercase;
     color: #4d5ae4;
     }
-    .header-navigation{
-     }
     .header-logo{
     font-family: 'Raleway';
     font-style: normal;
@@ -31,8 +27,6 @@ body{
     text-transform: uppercase;
     color: #2e2f42;
     }
-    .header-list{
-     }
     .header-link{
     font-style: normal;
     font-weight: 500;
@@ -78,8 +72,6 @@ body{
     cursor: pointer;
     color: #434455;
     }
-    .hero-subtitles{    
-    }
     .hero-text{
     background-color: #2E2F42;
     }
@@ -108,9 +100,6 @@ body{
     .hero-button:focus{
     color: #404bbf;
     }
-    
-    .benefits-subjects{
-    }
     .benefits-title{
     font-family: 'Roboto';
     font-style: normal;
@@ -133,9 +122,6 @@ body{
     line-height: 40px;
     letter-spacing: 0.02em;
     color:#2E2F42;
-    }
-    
-    .team{
     }
     .team-title{
     font-family: 'Roboto';
