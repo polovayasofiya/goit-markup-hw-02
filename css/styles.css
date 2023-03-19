@@ -74,9 +74,10 @@ body{
     }
     
     .hero-button{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     align-items: center;
     color: #FFFFFF;
@@ -85,7 +86,7 @@ body{
     }
     .hero-button:hover,
     .hero-button:focus{
-    color: #404BBF;
+    background-color: #404BBF;
     }
     .benefits-title{
     font-weight: 500;
@@ -97,19 +98,23 @@ body{
     .benefits-text{
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
     color:#434455;
     }
     .content-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
     color:var(--title-color);
     }
     .team{
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
+    }
+    .team-item{
+    background-color:#FFFFFF;
     }
     .team-title{
     font-weight: 700;
@@ -159,7 +164,7 @@ body{
     }
     
     .menu-button{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
