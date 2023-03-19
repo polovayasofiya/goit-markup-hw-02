@@ -44,8 +44,6 @@ body{
     .header-link:focus{
     color: #404bbf;
     }
-    
-    
     .header-address-item{
     font-style: normal;
     font-weight: 400;
@@ -57,7 +55,7 @@ body{
     }
     
     .header-address-item:hover,
-    .header-address-item:focus {
+    .header-address-item:focus{
     color: #404bbf;
     }
     
@@ -65,18 +63,19 @@ body{
     background-color: #2E2F42;
     }
     .hero-title{
- 
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 56px;
+     line-height: 1.07;
+     text-align: center;
+     letter-spacing: 0.02em;
+     color: #FFFFFF;    
     }
+    
     .hero-button{
-   
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1,5;
     letter-spacing: 0.04em;
     align-items: center;
     color: #FFFFFF;
@@ -85,52 +84,58 @@ body{
     }
     .hero-button:hover,
     .hero-button:focus{
-    color: #404bbf;
+    color: #404BBF;
     }
     .benefits-title{
-    
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--title-color);
     }
     .benefits-text{
-   
     font-size: 16px;
     line-height: 24px;
     color:#434455;
     }
     .content-title{
-   
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color:var(--title-color);
     }
+    .team{
+    background-color: #FFFFFF;
+    }
     .team-title{
-   
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: var(--title-color);
     }
+
     .team-title-small{
-    
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color:var(--title-color);
     }
-    .team-text{
-  
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color:#434455;
-    }
+
+   .team-text{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+   }
     .footer{
     background-color:#2E2F42 ;
     }
@@ -139,12 +144,12 @@ body{
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
     }
-   
+    
     .footer-text{
     font-size: 16px;
     line-height: 24px;
@@ -183,6 +188,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
     color: #434455;
     }
     
