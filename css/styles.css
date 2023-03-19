@@ -1,24 +1,19 @@
 body{
     font-family: 'Roboto', sans-serif;
+   color:  #434455;
+   background-color: #FFFFFF;
     }
+:root{
+    --title-color:#2E2F42
+}
     .list{
     list-style: none;
     }
     .link{
     text-decoration: none;
     }
-    span {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae4;
-    }
-    .header-logo{
-    font-family: 'Raleway';
+    .header-logo-studio{
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -26,6 +21,16 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+    }
+    .header-logo{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae4; 
     }
     .header-link{
     font-style: normal;
@@ -40,7 +45,8 @@ body{
     color: #404bbf;
     }
     
-    .header-address-mail{
+    
+    .header-address-item{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -50,34 +56,16 @@ body{
     color: #434455;
     }
     
-    .header-address-mail:hover,
-    .header-address-mail:focus {
+    .header-address-item:hover,
+    .header-address-item:focus {
     color: #404bbf;
     }
-    .header-address-phone{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    cursor: pointer;
-    color: #434455;
-    }
-    .header-address-link{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    cursor: pointer;
-    color: #434455;
-    }
+    
     .hero-text{
     background-color: #2E2F42;
     }
     .hero-title{
-    font-family: 'Roboto';
-    font-style: normal;
+ 
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
@@ -85,8 +73,7 @@ body{
     color: #FFFFFF;
     }
     .hero-button{
-    font-family: inherit;
-    font-style: normal;
+   
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -101,49 +88,44 @@ body{
     color: #404bbf;
     }
     .benefits-title{
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #2E2F42;
+    color: var(--title-color);
     }
     .benefits-text{
-    font-family: 'Roboto';
+   
     font-size: 16px;
     line-height: 24px;
     color:#434455;
     }
     .content-title{
-    font-family: 'Roboto';
-    font-style: normal;
+   
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 0.02em;
-    color:#2E2F42;
+    color:var(--title-color);
     }
     .team-title{
-    font-family: 'Roboto';
-    font-style: normal;
+   
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
     letter-spacing: 0.02em;
+    color: var(--title-color);
     }
     .team-title-small{
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color:#2E2F42;
+    color:var(--title-color);
     }
     .team-text{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+  
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -152,8 +134,8 @@ body{
     .footer{
     background-color:#2E2F42 ;
     }
-    .footer-logo{
-    font-family: 'Raleway';
+    .footer-logo-studio{
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -162,19 +144,8 @@ body{
     text-transform: uppercase;
     color: #F4F4FD;
     }
-    span{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    color: #4d5ae4;
-    }
+   
     .footer-text{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
