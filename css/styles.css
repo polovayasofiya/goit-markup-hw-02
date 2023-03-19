@@ -30,7 +30,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae4; 
+    color: #4d5ae5; 
     }
     .header-link{
     font-style: normal;
@@ -44,6 +44,7 @@ body{
     .header-link:focus{
     color: #404bbf;
     }
+    .header-address{font-style: normal}
     .header-address-item{
     font-style: normal;
     font-weight: 400;
