@@ -142,10 +142,10 @@ body{
     }
     
     .footer-text{
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
     }
     
     .menu-button{
