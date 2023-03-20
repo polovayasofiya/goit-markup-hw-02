@@ -54,7 +54,7 @@ body{
     }
     
     .hero-text{
-    background-color: #2E2F42;
+    background-color:#2E2F42;
     }
     .hero-title{
      font-style: normal;
@@ -153,7 +153,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0,04;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color:#F4F4FD;
